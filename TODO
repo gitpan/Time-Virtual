@@ -1,0 +1,15 @@
+year 2000K testing?  :)
+
+hook into Time::HiRes
+
+How to cope with sleep/select/poll when time is going faster/slower
+than normal?
+
+Time::Adjustible
+  inc/dec the speed of time
+  restart time at a specific time
+
+Time::DayRelative
+  resets to zero at midnight
+
+@EXPORT_OK = qw(broadcast_adjustment subscribe unsubscribe)??

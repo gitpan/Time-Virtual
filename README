@@ -1,0 +1,22 @@
+=head1 NAME
+
+Time::Virtual - Publish high-precision time or custom implementations of time
+
+=head1 SYNOPSIS
+
+  require Time::Virtual;
+
+  # XXX add example
+
+=head1 DESCRIPTION
+
+This module provides a mechanism to insert a level of indirection
+between the actually hardware-level time and the time as seen by the
+current process.
+
+Effort is made to avoid any assumptions about how time is represented
+and what is the available precision.
+
+There is also a C-API available in order to allow customizing the
+passage of time.  (Speed up, slow down, time travel, etc.)
+
